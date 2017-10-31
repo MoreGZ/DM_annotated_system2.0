@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  background: -webkit-radial-gradient(circle,white,#E5E5E5,lightgray); /* Safari 5.1 - 6.0 */
+  background: -o-radial-gradient(circle,white,#E5E5E5,lightgray); /* Opera 11.6 - 12.0 */
+  background: -moz-radial-gradient(circle,white,#E5E5E5,lightgray); /* Firefox 3.6 - 15 */
+  background: radial-gradient(circle,white,#E5E5E5,lightgray); /* 标准的语法 */
+}
+
+@media only screen and (min-width: 860px){
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 859px){
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (max-width: 649px){
+  html{
+    font-size: 50%;
+
+  }
+}
+
